@@ -33,3 +33,4 @@ print(zbior | zbior2)  # suma zbiorów  {999, 11, 44, 18, 52, 22, 667, 62}
 print(zbior & zbior2)  # cześć wspólna  {44}
 print(zbior - zbior2)  # różnica {22}
 print(zbior.difference(zbior2))  # {22}
+# ...
