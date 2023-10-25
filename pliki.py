@@ -23,6 +23,8 @@ with open('test.log', 'w', encoding='utf-8') as file:
 with open('test.log', "a", encoding='utf-8') as file:
     file.write('dodane\n')
     file.write('dośdane\n')
+    file.write('dośądane\n')
+    file.write('dośćdane\n')
 
 with open('test.log', 'r', encoding='utf-8') as f:
     lines = f.read()
