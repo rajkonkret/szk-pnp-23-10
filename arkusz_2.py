@@ -50,3 +50,4 @@ print(data.loc[1, "Amount"])  # mozna podac po nazwie kolumny
 print(data.iloc[1, 2])  # trzeb apodac indeks kolumny
 for i, e in enumerate(data.iloc[1]):  # wypisanie wartosci z wiersza o indeksie 1 i wskazanie przypisania do kolumn
     print(data.columns[i], ":", e)
+# 13:40
