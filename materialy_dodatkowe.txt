@@ -1,18 +1,18 @@
-==	Equal to
-!=	Not equal to
-<	Less than
->	Greater Than
-<=	Less than or Equal to
->=	Greater than or Equal to
+==    Equal to
+!=    Not equal to
+<    Less than
+>    Greater Than
+<=    Less than or Equal to
+>=    Greater than or Equal to
 
 
-**	Exponent	2 ** 3 = 8
-%	Modulus/Remainder	22 % 8 = 6
-//	Integer division	22 // 8 = 2
-/	Division	22 / 8 = 2.75
-*	Multiplication	3 * 3 = 9
--	Subtraction	5 - 2 = 3
-+	Addition	2 + 2 = 4
+**    Exponent    2 ** 3 = 8
+%    Modulus/Remainder    22 % 8 = 6
+//    Integer division    22 // 8 = 2
+/    Division    22 / 8 = 2.75
+*    Multiplication    3 * 3 = 9
+-    Subtraction    5 - 2 = 3
++    Addition    2 + 2 = 4
 
 %d: formatowanie liczb całkowitych
 %f: formatowanie liczb zmiennoprzecinkowych
@@ -55,22 +55,22 @@
 \N{name} - Znak Unicode o podanej nazwie
 The and Operator’s Truth Table:
 
-Expression	Evaluates to
-True and True	True
-True and False	False
-False and True	False
-False and False	False
+Expression    Evaluates to
+True and True    True
+True and False    False
+False and True    False
+False and False    False
 The or Operator’s Truth Table:
 
-Expression	Evaluates to
-True or True	True
-True or False	True
-False or True	True
-False or False	False
+Expression    Evaluates to
+True or True    True
+True or False    True
+False or True    True
+False or False    False
 The not Operator’s Truth Table:
 
-Expression	Evaluates to
-not True	False
+Expression    Evaluates to
+not True    False
 not False
 
 Dla daty:
@@ -90,8 +90,8 @@ Dla czasu:
 %S: Sekundy z zerem wiodącym, np. "00" do "59".
 %f: Mikrosekundy, np. "000000" do "999999".
 
-spam += 1	spam = spam + 1
-spam -= 1	spam = spam - 1
-spam *= 1	spam = spam * 1
-spam /= 1	spam = spam / 1
-spam %= 1	spam = spam % 1
+spam += 1    spam = spam + 1
+spam -= 1    spam = spam - 1
+spam *= 1    spam = spam * 1
+spam /= 1    spam = spam / 1
+spam %= 1    spam = spam % 1
