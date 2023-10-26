@@ -22,3 +22,4 @@ with open(filename, 'r') as csv_f:
 print(fields)
 print(type(fields))  # <class 'list'>
 print(rows)
+# 11:15
