@@ -9,6 +9,8 @@ try:
     with open('tables.sql', 'r') as file:
         sql_script = file.read()
 
+    cursor.executescript(sql_script)  # wykonanie skryptu na bazie danych
+
 except sqlite3.Error as e:
     print("błąd podczas podłączania bazy danych", e)
 finally:  # wykonuje się zawsze
