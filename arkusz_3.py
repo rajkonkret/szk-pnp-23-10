@@ -13,7 +13,7 @@ df = pd.DataFrame(
 )
 
 # nadanie nazwy dla kolumny z indeksem
-df.index.name = "Numer"
+df.index.__name = "Numer"
 print(df)
 # df.to_excel('courses.xlsx', index=True)
 
