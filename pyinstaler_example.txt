@@ -1,0 +1,5 @@
+# instalacja pyinstallera - program do tworzeni plikow exe z plikow pythonowych
+pip install pyinstaller
+pyinstaller.exe .\rendom_zad1.py
+
+W katalogu dist mamy plik uruchamialny .exe

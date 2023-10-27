@@ -38,3 +38,4 @@ print(lista_wynik)  # [3, 1, 25, 42, 18, 23]
 
 print(random.choices(lista2, k=6))  # [9, 43, 17, 4, 4, 19]
 print(random.sample(lista2, 6))  # [41, 0, 28, 47, 25, 3]
+input()  # by przy uruchamianiu exe zatrzymał sie
